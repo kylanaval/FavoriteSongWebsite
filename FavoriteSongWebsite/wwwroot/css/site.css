@@ -1,0 +1,92 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 150%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+body {
+    background-color: #f3f0ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    color: #5b3fa3;
+    font-size: 42px;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.video {
+    margin: 30px 0;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#circle {
+    width: 70px;
+    height: 70px;
+    background-color: #6c4ab6;
+    border-radius: 50%;
+    position: relative;
+    margin: 30px auto;
+}
+
+button {
+    background-color: #5b3fa3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #432d7a;
+    }
